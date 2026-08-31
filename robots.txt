@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /gizli/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /login.php
+Disallow: /cart/
+Disallow: /checkout/
+
+Allow: /
+
+# Google'ın belirli dosyaları taramasına izin ver
+User-agent: Googlebot
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap'inizi arama motorlar覺na bildiriyoruz
+Sitemap: https://www.orioninovasyon.com/sitemap.xml

@@ -1,0 +1,28 @@
+DirectoryIndex default.php index.php index.html
+
+# URL yönlendirmeleri ve temel güvenlik kuralları
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# www'yi non-www'ye yönlendir
+RewriteCond %{HTTP_HOST} ^www\.orioninovasyon\.com [NC]
+RewriteRule ^(.*)$ https://orioninovasyon.com/$1 [R=301,L]
+
+# index.html ve index.php'yi default.php'ye yönlendir
+RewriteCond %{THE_REQUEST} /index\.(html|php) [NC]
+RewriteRule ^index\.(html|php)$ /default.php [R=301,L]
+
+# Ürün detay sayfası için SEO dostu URL yönlendirmesi
+RewriteRule ^urunler/([^/]+)/?$ single-product.php?productCode=$1 [L,QSA]
+
+# Eğer dosya veya klasör yoksa, isteği default.php'ye yönlendir
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /default.php [L]
+</IfModule>
+
+# Güvenlik ayarları (Gerekirse)
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

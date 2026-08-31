@@ -1,0 +1,100 @@
+[22-Apr-2026 16:03:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[22-Apr-2026 16:03:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[22-Apr-2026 23:40:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[28-Apr-2026 22:01:51 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[18-May-2026 22:21:37 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[31-May-2026 10:40:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[09-Jun-2026 20:51:23 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[09-Jun-2026 20:51:23 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[09-Jun-2026 20:51:23 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'newsTitle_' in 'SELECT' in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[09-Jun-2026 20:51:23 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/script>, description_<script>alert('XSS')</script>, newsDate, content_<scrip...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[09-Jun-2026 20:51:23 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd, description_..%2F....' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[16-Jun-2026 23:31:01 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[16-Jun-2026 23:31:01 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 
+               imgID_1, imgID_2, imgID_3, imgID_4, imgID_5, imgID_6, imgI...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[16-Jun-2026 23:31:01 Europe/Istanbul] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/script>, description_<script>alert('XSS')</script>, newsDate, content_<scrip...' at line 1 in /home/u2671260/public_html/news.details.php:21
+Stack trace:
+#0 /home/u2671260/public_html/news.details.php(21): mysqli->prepare()
+#1 {main}
+  thrown in /home/u2671260/public_html/news.details.php on line 21
+[20-Jun-2026 17:08:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[29-Jun-2026 05:08:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[01-Jul-2026 21:25:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[05-Jul-2026 23:38:39 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/u2671260/public_html/contact.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/contact.php on line 50
+[24-Aug-2026 22:47:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /home/u2671260/public_html/chase.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u2671260/public_html/chase.php on line 24
+[24-Aug-2026 22:53:37 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 403
+[24-Aug-2026 22:53:37 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 405
+[24-Aug-2026 22:53:37 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 406
+[24-Aug-2026 22:53:37 Europe/Istanbul] PHP Warning:  Undefined array key "fade_res" in /home/u2671260/public_html/chase.php on line 412
+[24-Aug-2026 22:53:51 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 403
+[24-Aug-2026 22:53:51 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 405
+[24-Aug-2026 22:53:51 Europe/Istanbul] PHP Warning:  Undefined array key "wear_loss" in /home/u2671260/public_html/chase.php on line 406
+[24-Aug-2026 22:53:51 Europe/Istanbul] PHP Warning:  Undefined array key "fade_res" in /home/u2671260/public_html/chase.php on line 412
